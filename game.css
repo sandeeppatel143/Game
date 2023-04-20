@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.cen{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.wal1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+#wal{
+    height: 30px;
+    width: 65px;
+    border-radius: 5px;
+    background-color: #3f9ea1;
+}
+.arrange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cong{
+    display: flex;
+    justify-content: center;
+    display: none;
+    height: 150px;
+    width: 220px;
+    border-radius: 10px;
+    background-color: #477274;
+}
+#cong .p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #53eb25;
+}
+#cong .p p{
+    font-size: 16px;
+    font-weight: 600;
+}
+h3{
+    text-align: center;
+    margin: 20px;
+}
+.align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    height: 600px;
+    width: 450px;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: antiquewhite;
+}
+.play{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+#bt{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3f9ea1;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Price */
+
+.arrange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#dicrement, #increment, input{
+    border: none;
+    border-radius: 45%;
+    padding: 20px;
+    background-color: rgb(70, 60, 60);
+    font-weight: 800;
+    font-size: 20px;
+    color: #10c9cf;
+}
+#value1{
+    font-size: 40px;
+}
+.but{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}

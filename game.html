@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./game.css">
+    <title>Gauessing Game</title>
+</head>
+<body>
+       <div id="box">
+            <div class="wal1">
+                <div>
+                    <p>Admin</p>
+                </div>
+                <div class="cen">
+                    <div class="per">
+                        <p>Wallet: </p>
+                    </div>
+                    <div id="wal">
+                        <p id="val"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="play">
+                <button id="bt">Play</button>
+                <p id="time">Time:</p>
+            </div>
+            <div class="but">
+                <div>
+                    <div>
+                        <h3>Gauss Number</h3>
+                    </div>
+                    <div>
+                        <input type="button" id="id1" value="1">
+                        <input type="button" id="id2" value="2">
+                        <input type="button" id="id3" value="3">
+                        <input type="button" id="id4" value="4">
+                        <input type="button" id="id5" value="5">
+                    </div>
+                </div>
+                <div>
+                    <input type="button" id="id6" value="6">
+                    <input type="button" id="id7" value="7">
+                    <input type="button" id="id8" value="8">
+                    <input type="button" id="id9" value="9">
+                    <input type="button" id="id0" value="0">
+                </div>
+            </div>
+
+            <section class="arrange">
+                <div class="cent">
+                    <button id="dicrement">-</button>
+                    <span id="value1">0</span>
+                    <button id="increment">+</button>
+                </div>
+            </section>
+            <div class="align">
+                <div id="cong">
+                    <div class="p">
+                        <h3>Congratulations</h3>
+                        <p>You Won</p>
+                        <p id="Rs"></p>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <script src="./game.js"></script>
+</body>
+</html>
